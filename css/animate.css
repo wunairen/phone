@@ -1,0 +1,103 @@
+.screen-1_head,
+.screen-1_phone,
+.screen-1_shadow,
+.screen-2_head,
+.screen-2_phone,
+.screen-2_sub,
+.screen-2_phonepoint,
+.screen-3_head,
+.screen-3_phone,
+.screen-3_sub,.screen-3_fea
+{
+	transition: all 1s;
+}
+
+.screen-1_head_animate_init {
+	opacity: 0;
+	transform: translate(0, 100%);
+}
+
+.screen-1_head_animate_done,
+.screen-1_phone_animate_done,
+.screen-1_phone_animate_done,
+.screen-2_head_animate_done,
+.screen-2_sub_animate_done,
+.screen-2_phone_animate_done,
+.screen-2_phonepoin_animate_done,
+.screen-3_head_animate_done,
+.screen-3_sub_animate_done,
+.screen-3_phone_animate_done
+{
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.screen-1_phone_animate_init {
+	opacity: 0;
+	transform: translate(0, -100%);
+}
+
+.screen-1_shadow_animate_init {
+	opacity: 0;
+	transform: translate(0, 100%);
+}
+
+.screen-2_head_animate_init {
+	opacity: 0;
+	transform: translate(0, -100%);
+}
+
+.screen-2_sub_animate_init,
+.screen-2_phone_animate_init {
+	opacity: 0;
+	transform: translate(0, 100%);
+}
+
+.screen-2_phonepoint_animate_init {
+	opacity: 0;
+	transform: translate(-100%, -0);
+}
+
+.screen-2_phonepoint {
+	transition: all .5s 1s;
+}
+
+.screen-2_point1_animate_init {
+	opacity: 0;
+	transform: translate(-100%, -0);
+}
+
+.screen-2_point2_animate_init,
+.screen-2_point3_animate_init {
+	opacity: 0;
+	transform: translate(100%, -0);
+}
+
+.screen-3_head_animate_init {
+	opacity: 0;
+	transform: translate(0, -100%);
+}
+
+.screen-3_sub_animate_init,
+.screen-3_phone_animate_init {
+	opacity: 0;
+	transform: translate(0, 100%);
+}
+
+.screen-3_fea_animate_init {
+	opacity: 0;
+	transform: scale(.5);
+}
+
+.screen-3_fea_animate_done {
+	opacity: 1;
+	transform: scale(1);
+}
+.screen-3_feaItem{
+	transform: all .5s;
+	cursor: pointer;
+}
+.screen-3_feaItem:hover{
+	transform: scale(1.1);
+	border-color: #FFFFFF;
+}
